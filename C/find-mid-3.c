@@ -4,7 +4,7 @@ int main()
     int a, b, c, mid;
     printf("input: ");
     scanf("%d%d%d", &a, &b, &c);
-    /*假设修正法*/
+    /* 假设修正法 */
     mid = a;
     if (a <= b && b <= c || c <= b && b <= a)
     {
