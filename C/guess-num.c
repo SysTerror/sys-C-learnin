@@ -24,8 +24,7 @@ int main()
     while (count == 0 || guess != ans)
     {
         // 内部程式片段同方法 1
-    }
-    */
+    }*/
     printf("猜得分毫不差！(%d 次)", count);
     return 0;
 }
