@@ -4,7 +4,7 @@ int main()
     int side1, side2, side3, t;
     printf("逐次键入三角形的三整数边长：（例如：3 3 3）");
     scanf("%d%d%d", &side1, &side2, &side3);
-    /*按小中大排序*/
+    /* 按小中大排序 */
     if (side2 < side1)
     {
         t = side2; side2 = side1; side1 = t;

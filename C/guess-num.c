@@ -9,7 +9,7 @@ int main()
     {
         printf("键入你猜测的数字：");
         scanf("%d", &guess);
-        count = count + 1; // 计数
+        count++; // 计数
         /* 判断猜测数字与谜底数字的大小差别 */
         if (guess > ans)
         {

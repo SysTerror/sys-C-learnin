@@ -9,7 +9,7 @@ int main(){
     while (num != 0)
     {
         sum = sum + num;
-        count = count + 1;
+        count++;
         scanf("%d", &num);
     }
     avg = (float) sum / count;

@@ -4,7 +4,7 @@ int main(){
     printf("键入你想要排序的三个数字；");
     scanf("%d%d%d", &a, &b, &c);
     printf("Before: %d %d %d\n", a, b, c);
-    /*一些处理，使按小中大排序*/
+    /* 一些处理，使按小中大排序 */
     if (b < a)
     {
         t = b; b = a; a = t;
