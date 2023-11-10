@@ -2,41 +2,41 @@
 int main()
 {
     // 印出 1 到 9 的奇数
-    int count;
+    int i;
     /* 方法 1：使用朴素的 *2-1 算法
-    for (count = 1; count <= 5; count++)
+    for (i = 1; i <= 5; i++)
     {
-        count = count * 2 - 1;
-        printf("%d\n", count);
+        i = i * 2 - 1;
+        printf("%d\n", i);
     }*/
     /* 方法 2：使用不那么朴素但也精致不到哪儿去的 n+2 算法
-    for (count = 1; count <= 9; count += 2)
+    for (i = 1; i <= 9; i += 2)
     {
-        printf("%d\n", count);
+        printf("%d\n", i);
     }*/
     // 方法 3：使用 if 述句判断奇偶
     // 老师说，这种方法“最有弹性”
-    for (count = 1; count <= 10; count++)
+    for (i = 1; i <= 10; i++)
     {
-        if (count % 2 == 1)
+        if (i % 2 == 1)
         {
-            printf("%d\n", count);
+            printf("%d\n", i);
         }
     }
     // 再印出 2 到 10 的偶数
-    for (count = 1; count <= 10; count++)
+    for (i = 1; i <= 10; i++)
     {
-        if (count % 2 == 0)
+        if (i % 2 == 0)
         {
-            printf("%d\n", count);
+            printf("%d\n", i);
         }
     }
     // 接着印出 1 到 10 间不是 3 的倍数的偶数
-    for (count = 1; count <= 10; count++)
+    for (i = 1; i <= 10; i++)
     {
-        if (count % 3 != 0 && count % 2 == 0)
+        if (i % 3 != 0 && i % 2 == 0)
         {
-            printf("%d\n", count);
+            printf("%d\n", i);
         }
     }
     return 0;

@@ -1,14 +1,14 @@
 #include <stdio.h>
 int main()
 {
-    int count, M, N;
+    int i, M, N;
     printf("键入你想印出的 M 正数到 N 的 M：");
     scanf("%d", &M);
     printf("现在键入 M 正数到 N 的 N：");
     scanf("%d", &N);
-    for (count = M; count <= N; count++)
+    for (i = M; i <= N; i++)
     {
-        printf("%d\n", count);
+        printf("%d\n", i);
     }
     return 0;
 }
