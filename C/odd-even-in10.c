@@ -31,5 +31,13 @@ int main()
             printf("%d\n", count);
         }
     }
+    // 接着印出 1 到 10 间不是 3 的倍数的偶数
+    for (count = 1; count <= 10; count++)
+    {
+        if (count % 3 != 0 && count % 2 == 0)
+        {
+            printf("%d\n", count);
+        }
+    }
     return 0;
 }
