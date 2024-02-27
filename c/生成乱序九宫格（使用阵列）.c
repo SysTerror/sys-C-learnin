@@ -2,6 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 
+void DD9rand ();
+void D9rand ();
+
 int main () { // 实现：随机交换正序九宫格中的数字（交换法产生随机阵列）
     srand(time(0));
     DD9rand(); // 使用二维阵列

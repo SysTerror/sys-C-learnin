@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+void DD9 ();
+void D9 ();
+
 int main () {
     DD9(); // 使用二维阵列
     D9(); // 使用一维阵列
