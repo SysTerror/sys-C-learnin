@@ -1,0 +1,11 @@
+LIBRARY api-ms-win-core-sysinfo-l1-2-1
+
+EXPORTS
+
+GetLocalTime
+GetNativeSystemInfo
+GetSystemInfo
+GetSystemTime
+GetSystemTimeAsFileTime
+GetSystemTimePreciseAsFileTime
+GetTickCount64

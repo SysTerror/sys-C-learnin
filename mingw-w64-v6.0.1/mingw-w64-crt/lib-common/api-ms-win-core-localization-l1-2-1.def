@@ -1,0 +1,25 @@
+LIBRARY api-ms-win-core-localization-l1-2-1
+
+EXPORTS
+
+EnumSystemGeoID
+EnumSystemLocalesEx
+FindNLSStringEx
+FormatMessageA
+FormatMessageW
+GetCalendarInfoEx
+GetCPInfo
+GetCPInfoExW
+GetGeoInfoW
+GetLocaleInfoEx
+GetNLSVersionEx
+GetUserDefaultLocaleName
+GetUserGeoID
+IdnToAscii
+IdnToUnicode
+IsValidCodePage
+IsValidLocaleName
+IsValidNLSVersion
+LCMapStringEx
+LocaleNameToLCID
+ResolveLocaleName

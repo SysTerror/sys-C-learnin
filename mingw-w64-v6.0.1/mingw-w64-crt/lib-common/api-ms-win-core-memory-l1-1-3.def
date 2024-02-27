@@ -1,0 +1,7 @@
+LIBRARY api-ms-win-core-memory-l1-1-3
+
+EXPORTS
+
+OpenFileMappingFromApp
+VirtualAllocFromApp
+VirtualProtectFromApp

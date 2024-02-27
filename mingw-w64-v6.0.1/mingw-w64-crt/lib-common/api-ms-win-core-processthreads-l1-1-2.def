@@ -1,0 +1,24 @@
+LIBRARY api-ms-win-core-processthreads-l1-1-2
+
+EXPORTS
+
+CreateThread
+ExitThread
+FlushProcessWriteBuffers
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThread
+GetCurrentThreadId
+GetExitCodeThread
+GetThreadContext
+GetThreadId
+GetThreadPriority
+IsProcessorFeaturePresent
+OpenProcess
+QueueUserAPC
+ResumeThread
+SetThreadIdealProcessorEx
+SetThreadPriority
+SuspendThread
+SwitchToThread
+TerminateProcess

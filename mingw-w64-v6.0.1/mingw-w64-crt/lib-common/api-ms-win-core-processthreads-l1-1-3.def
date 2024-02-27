@@ -1,0 +1,12 @@
+LIBRARY api-ms-win-core-processthreads-l1-1-3
+
+EXPORTS
+
+GetProcessDefaultCpuSets
+GetProcessInformation
+GetSystemCpuSetInformation
+GetThreadSelectedCpuSets
+SetProcessDefaultCpuSets
+SetProcessInformation
+SetThreadIdealProcessor
+SetThreadSelectedCpuSets
