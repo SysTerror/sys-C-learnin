@@ -2,7 +2,7 @@
 int main()
 {
     int k;
-    printf("下面将印出九九乘法表：\n");
+    printf("现打印九九乘法表：\n");
     for (int i = 0; i < 9; i++)
     {
         for (int j = 0; j < 9; j++)
