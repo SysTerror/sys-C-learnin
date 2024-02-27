@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int main () {
-    dd9(); // 使用二维阵列
-    d9(); // 使用一维阵列
+    DD9(); // 使用二维阵列
+    D9(); // 使用一维阵列
     return 0;
 }
 
-void dd9 () {
+void DD9 () {
     /* int v[3][3] = { // 定义一个 3x3 的二维阵列
         {1, 2, 3},
         {4, 5, 6},
@@ -28,7 +28,7 @@ void dd9 () {
     }
 }
 
-void d9 () {
+void D9 () {
     int v[9], i;
     for (i = 0; i < 9; i++) {
         v[i] = i + 1;

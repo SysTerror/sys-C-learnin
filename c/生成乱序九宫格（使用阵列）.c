@@ -4,12 +4,12 @@
 
 int main () { // 实现：随机交换正序九宫格中的数字（交换法产生随机阵列）
     srand(time(0));
-    dd9random(); // 使用二维阵列
-    d9random(); // 使用一维阵列
+    DD9rand(); // 使用二维阵列
+    D9rand(); // 使用一维阵列
     return 0;
 } 
 
-void dd9random () {
+void DD9rand () {
     int v[3][3] = {{1, 2, 3}, {4, 5, 6},{7, 8, 9}};
     int i, j, k = 0;
     for (i = 0; i < 3; i++) {
@@ -33,7 +33,7 @@ void dd9random () {
     }
 }
 
-void d9random () {
+void D9rand () {
     int v[9] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
     int i;
     for (i = 0; i < 9; i++) {
