@@ -1,5 +1,12 @@
 #include <stdio.h>
+
 int main () {
+    dd9(); // 使用二维阵列
+    d9(); // 使用一维阵列
+    return 0;
+}
+
+void dd9 () {
     /* int v[3][3] = { // 定义一个 3x3 的二维阵列
         {1, 2, 3},
         {4, 5, 6},
@@ -19,5 +26,17 @@ int main () {
         }
         printf("\n");
     }
-    return 0;
+}
+
+void d9 () {
+    int v[9], i;
+    for (i = 0; i < 9; i++) {
+        v[i] = i + 1;
+    }
+    for (i = 0; i < 9; i++) {
+        printf("%d ", v[i]);
+        if (i % 3 == 2) { // 需求：i 为 2，5，8 时换行；要判断之，只需 i 除以 3 余 2
+            printf("\n");
+        }
+    }
 }
