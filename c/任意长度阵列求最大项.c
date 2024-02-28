@@ -25,11 +25,11 @@ int max3 (int v[3]) { // * 这里 3 写与不写是一样的，v[3] 等效于 v[
     return max;
 }
 
-int maxvN (int v[], int N) { // ？函式参数 v[] 到底是什么（指标）
+int maxvN (int v[], int N) { // 函式参数 v[] 到底是什么？（指标）
     int max = v[0];
-    for (int i = 1; i < N; i++) { // ？一定要传入 N 吗
+    for (int i = 1; i < N; i++) { // 一定要传入 N 吗？
         if (v[i] > max) {
-            max = v[i]; // ？如果 i 的值超过阵列范围会怎么样
+            max = v[i]; // 如果 i 的值超过阵列范围会怎么样？
         }
     }
     return max;
