@@ -23,7 +23,7 @@ void DD9rand () {
             int n = r % 3;
             // 交换
             int t = v[i][j];
-            v[i][j] = v [m][n];
+            v[i][j] = v[m][n];
             v[m][n] = t;
             k++;
         }

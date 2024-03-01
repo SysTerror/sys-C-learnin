@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void vPrint (int (*q)[3]) {
+void vPrint (int (*q)[3]) { // 问题：阵列的长度是钉死的
     // 1. 传入变数不能写成 int (*q)[] 吗？== int *(*q) == int **q
     // 2. 此时，sizeof(*q) 求的是一个指向整数的指标的记忆体占用，目标阵列长度信息已经丢失
     for (int i = 0; i < sizeof(*q)/sizeof((*q)[0]); i++) {
